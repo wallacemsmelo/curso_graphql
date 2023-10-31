@@ -1,0 +1,10 @@
+#-----------------------------------
+# Desafio 2 - Criação de um tipo Produto
+#-----------------------------------
+# o valor do atributo precoComDesconto será passado via Resolvers
+type Produto {
+  nome: String!
+  preco: Float!
+  desconto: Float
+  precoComDesconto: Float
+}

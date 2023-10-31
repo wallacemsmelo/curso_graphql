@@ -1,0 +1,24 @@
+#-----------------------------------
+# criação dos TIPOS DE DADOS que cada campo deve consultar para obter retorno
+#-----------------------------------
+type Perfil {
+    id: Int
+    nome: String
+  }
+
+enum UsuarioStatus {
+  ATIVO
+  INATIVO
+  BLOQUEADO
+}
+
+  type Usuario {
+    id: Int
+    nome: String!
+    email: String!
+    idade: Int
+    salario: Float
+    vip: Boolean
+    perfil: Perfil
+    status: UsuarioStatus
+  }

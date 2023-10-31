@@ -1,0 +1,6 @@
+  #import Usuario, Perfil from 'Usuario.graphql'
+  #import Produto from 'Produto.graphql'
+  #import Query from 'Query.graphql'
+#-----------------------------------
+#Importando todos os tipos de dados para o index.graphql, após ser importando no index,js
+#-----------------------------------
