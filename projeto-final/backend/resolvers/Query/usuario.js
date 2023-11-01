@@ -4,6 +4,7 @@ const { getUsuarioLogado } = require("../comum/usuario");
 
 module.exports = {
   async login(_, { dados }) {
+    //Função de autentificação de senhas de login
     const usuario = await db("usuarios").where({ email: dados.email }).first();
 
     if (!usuario) {
